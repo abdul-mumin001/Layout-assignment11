@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    padding: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.leftheader{
+    color: white;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+.middleheader a{
+    margin: 5px;
+}
+.home{
+    color: white;
+}
+.rightheader button{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.rightheader{
+    margin-left: 50px;
+}
