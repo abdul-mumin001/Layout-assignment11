@@ -86,12 +86,15 @@ table {
     margin-left: 50px;
 }
 .mainfirst{
-    margin: 0 auto;
+    margin:0 auto;
     width: 80%;
+    height: 400px;
     text-align: center;
     margin-top: 50px;
     margin-right: 200px;
     position: relative;
+ 
+
 }
 .mainfirst h1{
     font-size: 30px;
@@ -103,6 +106,7 @@ table {
 .firstbox{
     border: 2px solid black;
     width: 30%;
+    margin: 10px;
     height: 300px;
     float: right;
     
@@ -110,12 +114,14 @@ table {
 .secondbox{
     border: 2px solid black;
     width: 30%;
+    margin: 10px;
     height: 300px;
     float: right;
 }
 .thirdbox{
     border: 2px solid black;
     width: 30%;
+    margin: 10px;
     height: 300px;
     float: right;
 }
@@ -140,3 +146,127 @@ table {
 .box8{
     background-color: orange;
 }
+.img1 img{
+    margin: 0 auto;
+    width: 30px;
+    background-color: brown;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+    position: sticky;
+     
+}
+.flexmain{
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+    
+   
+}
+.flexmain h2{
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.flex1{
+    margin: 20px;
+    padding: 20px;
+}
+.item{
+   border: 2px solid aqua;
+   width: 80px;
+   height: 80px;
+   margin: 1px;
+   background-color: lightseagreen;
+   
+}
+hr{
+    background-color: brown;
+   
+}
+.item1{
+    border: 2px solid aqua;
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    background-color: lightseagreen;
+    
+ }
+ 
+ .flexmiddle{
+     margin: 0 auto;
+     margin-top: 50px;
+     width: 40%;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .item2{
+    border: 2px solid aqua;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: lightseagreen;
+    
+ }
+ .flexsecondlast{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.mid{
+    width: 17%;
+}
+
+.item3{
+    border: 2px solid aqua;
+    width: 95px;
+    height: 95px;
+    margin: 15px;
+    background-color: lightseagreen;
+    
+ }
+.flexlast{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+/* footer{
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(55, 158, 199);;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px;
+    
+    
+} */
+
