@@ -253,20 +253,16 @@ hr{
     flex-wrap: wrap;
 
 }
-/* footer{
-    padding: 50px;
+footer{   
+    line-height: 80px;
+    /* padding: 50px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
     background-color: rgb(55, 158, 199);;
     text-align: center;
 }
-footer a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    margin: 40px;
-    
-    
-} */
+footer i{
+    margin: 10px;
+   color: white;
+}
 
