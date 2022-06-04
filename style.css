@@ -1,58 +1,146 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* GENERAL */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
+
+.header {
     width: 100%;
     margin: 0 auto;
     height: 60px;
@@ -64,88 +152,244 @@ table {
     justify-content: space-around;
     font-size: 30px;
 }
-.leftheader{
+
+.leftheader {
     color: white;
     font-weight: bolder;
     margin-right: 50px;
 }
-.middleheader a{
+
+.middleheader a {
     margin: 5px;
 }
-.home{
+
+.home {
     color: white;
 }
-.rightheader button{
+
+.rightheader button {
     background-color: white;
     width: 80px;
     height: 30px;
     border-radius: 10px;
-    
+
 }
-.rightheader{
+
+.rightheader {
     margin-left: 50px;
 }
-.mainfirst{
-    margin:0 auto;
+
+.mainfirst {
+    margin: 0 auto;
     width: 80%;
     height: 400px;
     text-align: center;
     margin-top: 50px;
     margin-right: 200px;
-    position: relative;
- 
+    /* position: relative; */
+
 
 }
-.mainfirst h1{
+
+.mainfirst h1 {
     font-size: 30px;
     margin: 10px;
     padding: 5px;
     margin-left: 130px;
 
 }
-.firstbox{
+
+.firstbox {
     border: 2px solid black;
     width: 30%;
     margin: 10px;
     height: 300px;
     float: right;
-    
+
 }
-.secondbox{
-    border: 2px solid black;
-    width: 30%;
-    margin: 10px;
-    height: 300px;
-    float: right;
-}
-.thirdbox{
+
+.secondbox {
     border: 2px solid black;
     width: 30%;
     margin: 10px;
     height: 300px;
     float: right;
 }
-.box{
+
+.thirdbox {
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    float: right;
+}
+
+.boxfirst {
     border: 2px solid aqua;
     width: 80px;
     height: 80px;
     background-color: lightseagreen;
     margin-left: 35%;
 }
-.box2{
+
+.box2 {
     background-color: orange;
     float: right;
     margin-right: 20px;
 }
-.box5{
+
+.box5 {
     background-color: orange;
     float: left;
     margin-left: auto;
-   
+
 }
-.box8{
+
+.box8 {
     background-color: orange;
 }
+
+.uniqueposition {
+    margin: 0;
+    text-align: center;
+
+}
+
+.uniqueposition h3 {
+    font-size: 30px;
+}
+
+.position {
+    width: 80%;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.boxsecond {
+    border: 2px solid aqua;
+    width: 80px;
+    height: 80px;
+    background-color: lightseagreen;
+}
+
+.secondpart1 {
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondpart2 {
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+
+}
+
+.secondpart3 {
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.secondpart4 {
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box12 {
+    background-color: orange;
+
+
+}
+
+.box15 {
+    background-color: orange;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 125px;
+
+
+}
+
+.box14 {
+    position: absolute;
+    margin-bottom: 170px;
+
+}
+
+.box16 {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+
+.box19 {
+    background-color: orange;
+    margin-right: 170px;
+    position: absolute;
+
+}
+
+.box17 {
+    position: absolute;
+    margin-bottom: 170px;
+
+
+}
+
+.box18 {
+    position: absolute;
+}
+
+.box21 {
+    background-color: orange;
+
+}
+
+
+
 .img1 img{
     margin: 0 auto;
     width: 30px;
@@ -228,6 +472,7 @@ hr{
     justify-content: center;
     align-items: center;
     
+    
    
 }
 
@@ -255,9 +500,7 @@ hr{
 }
 footer{   
     line-height: 80px;
-    /* padding: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px; */
+  
     background-color: rgb(55, 158, 199);;
     text-align: center;
 }
@@ -265,4 +508,3 @@ footer i{
     margin: 10px;
    color: white;
 }
-
